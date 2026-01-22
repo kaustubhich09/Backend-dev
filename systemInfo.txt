@@ -1,0 +1,20 @@
+
+CPU: 12th Gen Intel(R) Core(TM) i5-1235U
+Total Memory: 16890978304
+Platform: win32
+-----------------------
+
+CPU: 12th Gen Intel(R) Core(TM) i5-1235U
+Total Memory: 16890978304
+Platform: win32
+-----------------------
+
+CPU: 12th Gen Intel(R) Core(TM) i5-1235U
+Total Memory: 16890978304
+Platform: win32
+-----------------------
+
+CPU: 12th Gen Intel(R) Core(TM) i5-1235U
+Total Memory: 16890978304
+Platform: win32
+-----------------------
