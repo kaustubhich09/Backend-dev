@@ -1,0 +1,30 @@
+1.
+Synchronous file operations block the program until the task finishes, while asynchronous operations run in the background and do not block execution.
+
+2.
+You should use file streams when working with large files because streams read data in chunks and save memory.
+
+3.
+The utf8 encoding tells the system to read or write the file as human-readable text instead of raw binary data.
+
+4.
+
+ENOENT → File or directory not found
+
+EACCES → Permission denied
+
+EISDIR → Expected a file but got a directory
+
+ENOTDIR → Expected a directory but got a file
+
+5.
+You can safely delete a directory and its contents using recursive deletion, ensuring all files inside are removed first.
+
+6.
+Piping connects one stream’s output directly to another stream’s input, like reading a file and writing it to another file using streams.
+
+7.
+Handling errors prevents program crashes and helps manage issues like missing files, permission problems, or system failures.
+
+8.
+writeFile overwrites the file content, while appendFile adds new data to the end of the file without deleting existing content.
