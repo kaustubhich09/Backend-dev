@@ -1,0 +1,17 @@
+<h1>All Authors</h1>
+
+<a href="/authors/new">Add New Author</a>
+
+<ul>
+  <% authors.forEach(author => { %>
+    <li>
+      <%= author.name %>
+
+      <a href="/authors/<%= author.id %>/edit">Edit</a>
+
+      <form action="/authors/<%= author.id %>/delete" method="POST" style="display:inline;">
+        <button>Delete</button>
+      </form>
+    </li>
+  <% }) %>
+</ul>

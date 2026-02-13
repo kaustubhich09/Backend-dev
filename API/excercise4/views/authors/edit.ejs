@@ -1,0 +1,8 @@
+<h1>Edit Author</h1>
+
+<form action="/authors/<%= author.id %>" method="POST">
+  <input type="text" name="name" value="<%= author.name %>" required>
+  <button>Update Author</button>
+</form>
+
+<a href="/authors">Back</a>
